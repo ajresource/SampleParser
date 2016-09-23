@@ -67,6 +67,12 @@ class ParsedEventScala {
         }
     }
 
+    /**
+      *
+      * @param ipAddress
+      * @throws exception
+      * @return ipAddress
+      */
     @throws[Exception]
     private def TryParseIp(ipAddress: String): String = {
 
@@ -86,4 +92,7 @@ class ParsedEventScala {
 
     }
 
+    /**
+      * New verifications for username
+      */
 }
